@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: linear-gradient(45deg, #FF5252, #FFD600); /* Modern gradient background */
+    color: #333; /* Text color on the background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+main {
+    text-align: center;
+}
+
+.animated-text {
+    animation: dance 2s infinite; /* Apply the animation to the text */
+    font-size: 18px;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    background-color: #f8f8f8; /* Form input background color */
+}
+
+input:focus {
+    outline: none;
+    border-color: #FFD600;
+}
+
+button {
+    background-color: #FFD600;
+    color: #333;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #FFC107;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+@keyframes dance {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
